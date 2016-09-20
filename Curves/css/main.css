@@ -630,6 +630,9 @@ tbody tr:last-child td:last-child {
 	-webkit-border-bottom-right-radius:3px;
 	border-bottom-right-radius:3px;
 }
+table span.glyphicons {
+	font-size: 18px;
+}
 .right {
 	text-align: right!important;
 }
