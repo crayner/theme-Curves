@@ -119,7 +119,7 @@ div.minorLinks a:hover, div.minorLinks a .glyphicon:hover, div.minorLinks a .gly
 
 /* NAV */
 .navbar {
-	margin: 0 -15px 0 -15px;
+	margin: 0 -15px -1px -15px;
 	font-weight: bold ;
 	height: 32px ;
 	font-size: 90% ;
