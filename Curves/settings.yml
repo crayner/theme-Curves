@@ -398,9 +398,9 @@ js:
     - /lib/chained/jquery.chained.mini.js
     - /lib/thickbox/thickbox-compressed.js
     - /vendor/tinymce/tinymce/tinymce.min.js  
-    - /lib/jquery-tokeninput/src/jquery.tokeninput.js
     - /src/themes/Curves/js/common.js
     - /vendor/nostalgiaz/bootstrap-switch/dist/js/bootstrap-switch.min.js
+    - /src/themes/Bootstrap/js/bootstrap-tokenfield.js
     - /src/themes/Bootstrap/js/bootstrap-session-timeout.min.js
 datepicker: 1
 # Bootstrap
