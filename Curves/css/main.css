@@ -126,6 +126,14 @@ div.minorLinks a:hover, div.minorLinks a .glyphicon:hover, div.minorLinks a .gly
 	text-transform: uppercase ;
 	border-top: none ;
 }
+li.dropdown a{
+	height: 30px ;
+	margin: 0 ;
+	padding: 15px;
+}
+ul.dropdown-menu li a{
+	padding: 7px 0 0 10px;
+}
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;  
 }
@@ -656,12 +664,42 @@ td.centre {
 	font-size: 11px!important;
 	padding: 3px!important ;
 }
-#header-finder p {
-	font-size: 10px;
+#header-finder {
+	margin: 10px;
+	padding: 0;
+}
+#header-finder .container-fluid {
+	background-color: #FBFBFB;
+	height: 120px;
+	width-max: 300px;
+	padding: 0;
+	margin: 0;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+}
+#header-finder h2 {
+	padding: 0;
+	margin: 28px 10px 0 10px;
+	font-size: 80%;
 	text-align: right;
-	margin-top: 88px;
-	font-style: italic;
+}
+#header-finder input{
+	height: 30px;
+}
+#header-finder p {
+	padding: 0;
+	margin: 10px;
+	text-align: right;
 	color: #3b3b3b;
+	font-size: 10px;
+}
+#header-finder div.input-group {
+	margin: 10px 10px 10px 50px;
+}
+input#finderID-tokenfield {
+	margin-top: -6px;
+	margin-left: -12px;
+	border: none;
 }
 div#ui-datepicker-div {
 	z-index: 1000!important;
@@ -736,12 +774,10 @@ table.ui-datepicker-calendar tr:last-child th:last-child {
 	margin-top: 5px;
 }
 .standardForm .container-fluid .well .row, .noIntBorder .container-fluid .well .row {
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	margin-top: -1px;
-	margin-bottom: 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	border: 1px solid #ccc;
+	margin: -1px -15px 0 -15px ;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
 }
 .noIntBorder .container-fluid .well .row {
 	background: #EDF7FF;
