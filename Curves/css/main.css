@@ -95,17 +95,20 @@ div.minorLinks {
 	text-align: right; 
 	color: white;
 	font-weight: normal; 
-	min-height: 65px ;
+	min-height: 40px ;
 	line-height: 15px;
 }
 .minorLinksContent {
-	line-height: 65px ;
+	line-height: 40px ;
 	vertical-align: middle ;
 	display: inline-block ;
 }
 div.minorLinks a {
 	color: #fff;
 	text-decoration: none ;
+}
+div.minorLinks .x2 {
+	font-size: 28px;
 }
 div.minorLinks .glyphicon, div.minorLinks .glyphicons {
 	color: #fff;
@@ -968,4 +971,7 @@ a,#adminmenu a,a.edButtonPreview,a.edButtonHTML,#the-comment-list p.comment-auth
 
 .g_buttons button {
 	width: 105px;
+}
+.center {
+	text-align: centre!important;
 }
