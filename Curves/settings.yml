@@ -445,6 +445,9 @@ links:
     previous:
         title: Previous
         prompt: "<span class='glyphicons glyphicons-rewind'></span>"
+    upload:
+        prompt: '<span class="glyphicons glyphicons-upload"></span>'
+        title: Upload
     change password: 
         prompt: '<span class="glyphicons glyphicons-user-lock"></span>'
         title: Change Password
