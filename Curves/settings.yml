@@ -196,37 +196,37 @@ form:
             oneColumn: 1
         note:
             col2: 
-                class: col-md-offset-1 col-lg-offset-1 col-md-10 col-lg-10 
+                class: col-md-12 col-lg-12
             span:
                 class: help-block default
             oneColumn: 1
         rawElement:
             col2: 
-                class: col-md-offset-1 col-lg-offset-1 col-md-10 col-lg-10 
+                class: col-md-12 col-lg-12
             span:
                 class: help-block default
             oneColumn: 1
         warning:
             col2: 
-                class: col-md-offset-1 col-lg-offset-1 col-md-10 col-lg-10 
+                class: col-md-12 col-lg-12
             span:
                 class: warning help-block
             oneColumn: 1
         success:
             col2: 
-                class: col-md-offset-1 col-lg-offset-1 col-md-10 col-lg-10 
+                class: col-md-12 col-lg-12
             span:
                 class: success help-block
             oneColumn: 1
         info:
             col2: 
-                class: col-md-offset-1 col-lg-offset-1 col-md-10 col-lg-10 
+                class: col-md-12 col-lg-12 
             span:
                 class: info help-block
             oneColumn: 1
         error:
             col2: 
-                class: col-md-offset-1 col-lg-offset-1 col-md-10 col-lg-10 
+                class: col-md-12 col-lg-12
             span: 
                 class: error help-block
             oneColumn: 1
@@ -482,9 +482,36 @@ links:
     quick add:
         title: 'Quick Add'
         prompt: '<span class="halflings halflings-plus-sign"></span>'
+    attendance:
+        title: 'Attendance'
+        prompt: '<span class="glyphicons glyphicons-group"></span>'
     pink gift:
         title: 'Birthday'
-        prompt: '<span class="glyphicons glyphicons-birthday-cake"{{title}} style="color: pink;"></span>'
+        prompt: '<span class="glyphicons glyphicons-birthday-cake"{{title}} style="color: #EA92E3;"></span>'
+    gift:
+        title: 'Birthday'
+        prompt: '<span class="glyphicons glyphicons-birthday-cake"{{title}}></span>'
+    cross:
+        title: 'Cross'
+        prompt: '<span class="glyphicons glyphicons-remove"{{title}} style="color: red;"></span>'
+    tick:
+        title: 'Tick'
+        prompt: '<span class="glyphicons glyphicons-tick"{{title}} style="color: green;"></span>'
+    error:
+        title: 'Error'
+        prompt: '<span class="glyphicons glyphicons-exclamation-sign"{{title}} style="color: red;"></span>'
+    page down:
+        title: 'Page Down'
+        prompt: '<span class="glyphicons glyphicons-download"></span>'
+    planner:
+        title: 'Planner'
+        prompt: '<span class="glyphicons glyphicons-calendar"></span>'
+    markbook:
+        title: 'Markbook'
+        prompt: '<span class="glyphicons glyphicons-table"></span>'
+    homework:
+        title: 'Homework'
+        prompt: '<span class="glyphicons glyphicons-list-alt"><span class="halflings halflings-check"></span></span>'
 # linkTop keys need to be LOWERCASE
 linkTop:
     add:
