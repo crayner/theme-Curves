@@ -532,17 +532,6 @@ ul.moduleMenu h4 {
 	margin-top: 1px;
 	margin-left: -6px;
 }
-.mini .glyphicons-list-alt .halflings-check {
-	color: #757B81;
-    font-size: 10px;
-    float: right;
-    margin-top: -15px;
-	margin-right: -2px;
-    background: white;
-}
-.mini a .glyphicon, .mini a .glyphicons {
-	text-decoration: none!important ;
-}
 .glyphicons, .glyphicon {
 	color: #757B81;
 	font-size: 18px;
@@ -1085,4 +1074,15 @@ button.generatePassword {
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
 	vertical-align: middle ;
+}
+.homework {
+	display: block;
+	max-height: 25px;
+	max-width: 25px;
+}
+.homework .halflings {
+    top: -15px;
+    left: 12px;
+	color: #757B81;
+    background: white;
 }

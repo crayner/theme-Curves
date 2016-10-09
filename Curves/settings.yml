@@ -511,7 +511,7 @@ links:
         prompt: '<span class="glyphicons glyphicons-table"></span>'
     homework:
         title: 'Homework'
-        prompt: '<span class="glyphicons glyphicons-list-alt"><span class="halflings halflings-check"></span></span>'
+        prompt: '<div class="homework"><span class="glyphicons glyphicons-list-alt"></span><span class="halflings halflings-check"></span></div>'
 # linkTop keys need to be LOWERCASE
 linkTop:
     add:
